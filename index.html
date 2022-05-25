@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+            /* mantiene el tamaño original y no afecta el tamaño
+            final con el padding, ni el borde. no suma. */
+        }
+        body {
+            margin: 0
+        }
+
+        #cajaPrincipal {
+            background-color: red;
+            /* usando px o pixeles */
+            width: 400px;
+            height:400px;
+            
+            /* usando viewport width  y viewport height 
+            100 (porcentaje)*/
+            /* width: 100vw; */
+            /* height: 100vh; */
+            
+            /* margin: 25px; */
+            /* margin es el margen del elem que la contenga y
+            el elemneto */
+            padding: 25px;
+            /* margen interno o sea desde el borde de la borde
+            caja para su interior, suma el width y el heigh en 
+            25 px */
+            border: solid black 5px;
+            /* en forma individual top, left, right, bottom*/
+            /* margin-left: 20px;
+            margin-top: 50px; */
+        }
+        #cajaSecundaria {
+            background-color: blue;
+            width: 300px;
+            height: 300px;
+            /* margin: 25px; */
+            /* margin: top, right, bottom, left; */
+            margin: 30px 10px 10px 30px;
+            border: dotted black 5px;
+            padding: 25px;
+        }
+        #cajaInterior {
+            background-color: chartreuse;
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+            padding: 25px;
+            margin: 25px;
+            border: solid black 5px;
+        }
+        h1 {
+            margin: 25px;
+            padding: 10px;
+            background-color: cyan;
+            height: 70px;
+            width: 110px; 
+            border: solid black 5px;
+        }
+
+    </style>
+    <div id="cajaPrincipal">
+        <div id="cajaSecundaria">
+            <div id="cajaInterior">
+                <h1>Hola</h1>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
