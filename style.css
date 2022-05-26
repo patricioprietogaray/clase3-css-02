@@ -10,7 +10,7 @@ body {
 }
 
 #cajaPrincipal {
-    background-color: red;
+    background-color: aquamarine;
     /* usando px o pixeles */
     width: 400px;
     height:400px;
@@ -47,7 +47,7 @@ cambia de color con hover*/
 }
 
 #cajaSecundaria {
-    background-color: blue;
+    background-color: brown;
     width: 300px;
     height: 300px;
     /* margin: 25px; */
@@ -70,9 +70,30 @@ cambia de color con hover*/
 h1 {
     /* margin: 25px; */
     margin: 25px auto;
-    padding: 10px;
+    padding: 5px;
     background-color: cyan;
     height: 70px;
-    width: 110px; 
+    /* width: 70px;  */
     border: solid black 5px;
+    position: relative;
+    display: inline;
+    /* inline el objeto ocupa tan poco espacio como puede tener en cuenta los seteos previos,
+    al contrario si no hay width ni inline ocupará tanto espacio como pueda */
+}
+
+p {
+    background-color: violet;
+    /* margin: 10px; */
+    padding: 5px;
+    display: inline;
+    font-size: 12px;
+}
+
+.cajaChica {
+    width: 80px;
+    height: 40px;
+    /* reserva el espacio pero no se ven */
+    background-color: orange;
+    border: solid black 1px;
+    display: inline;
 }
