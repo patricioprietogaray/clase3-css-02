@@ -39,6 +39,13 @@ body {
     /* margin-left: 20px;
     margin-top: 50px; */
 }
+
+/* cuando paso el mouse sobre caja principal 
+cambia de color con hover*/
+#cajaPrincipal:hover {
+    background-color: rgb(83, 230, 235);
+}
+
 #cajaSecundaria {
     background-color: blue;
     width: 300px;
