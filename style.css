@@ -57,6 +57,7 @@ cambia de color con hover*/
     border: dotted black 5px;
     padding: 25px;
 }
+
 #cajaInterior {
     background-color: chartreuse;
     width: 200px;
@@ -67,14 +68,15 @@ cambia de color con hover*/
     margin: auto;
     border: solid black 5px;
 }
+
 h1 {
     /* margin: 25px; */
     margin: 25px auto;
-    padding: 5px;
+    padding: 0px;
     background-color: cyan;
     height: 70px;
     /* width: 70px;  */
-    border: solid black 5px;
+    border: solid black 1px;
     position: relative;
     display: inline;
     /* inline el objeto ocupa tan poco espacio como puede tener en cuenta los seteos previos,
@@ -91,9 +93,10 @@ p {
 
 .cajaChica {
     width: 80px;
-    height: 40px;
+    height: 80px;
     /* reserva el espacio pero no se ven */
     background-color: orange;
     border: solid black 1px;
     display: inline;
+    
 }
